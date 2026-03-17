@@ -110,6 +110,7 @@ if "%CheckError%"=="1" (
 
 if /i "%~1"=="s" (
     set "Debug=0"
+    set "ErrorTimeout=0"
     call :log "!msg_info_quiet!"
 )
 
